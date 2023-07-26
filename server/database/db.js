@@ -9,7 +9,6 @@ const PASSWORD = process.env.DB_PASSWORD;
 const Connection = () => {
 
     const MONGODB_URI = 'mongodb+srv://TodoList:8900114332@cluster0.frlx0er.mongodb.net/?retryWrites=true&w=majority';
-;
 
     mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
